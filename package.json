@@ -1,0 +1,30 @@
+{
+	"name": "@straits/eslint-config",
+	"version": "1.0.1",
+	"description": "straits' ESLint config",
+	"main": "index.js",
+	"scripts": {
+		"pretest": "eslint -c index.js index.js",
+		"test": "node index.js"
+	},
+	"dependencies": {
+		"@peoro/eslint-config": "^1.0.0",
+		"@straits/eslint-plugin": "^1.0.0"
+	},
+	"devDependencies": {
+		"eslint": "^5.9.0"
+	},
+	"peerDependencies": {
+		"eslint": ">= 3"
+	},
+	"author": "peoro",
+	"license": "MIT",
+	"keywords": [
+		"eslint",
+		"eslintconfig",
+		"eslint-config"
+	],
+	"homepage": "https://github.com/peoro/straits-eslint-config#readme",
+	"bugs": "https://github.com/peoro/straits-eslint-config/issues",
+	"repository": "github:peoro/straits-eslint-config"
+}
